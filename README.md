@@ -10,4 +10,4 @@ phrase_to_morse(phrase)
 > Takes a string and returns morse. String must consist of alphanumeric characters (A-Z, 0-9). Multiple words are allowed.
 
 morse_to_phrase(morse_phrase)
-> Takes a morse phrase and returns text. Letters must be seperated by "_" and words by a space.
+> Takes a morse phrase and returns text. Morse letters must be seperated by "_" and words by a space.
