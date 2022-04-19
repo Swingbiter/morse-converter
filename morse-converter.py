@@ -64,9 +64,7 @@ def morse_to_phrase(morse_phrase):
             if letter in morse.values():
                 # flip keys and values in morse dict
                 morse_to_text = {morse[l]: l for l in morse.keys()}
-
                 converted_word += morse_to_text[letter]
-        
         phrase += converted_word + " "
     
     return phrase.strip()
